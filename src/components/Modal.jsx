@@ -15,7 +15,7 @@ const CloseIcon = () => (
   </svg>
 );
 
-export function Modal({ open, onClose, children }) {
+export default function Modal({ open, onClose, children }) {
   const dialogRef = useRef(null);
 
   useEffect(() => {
